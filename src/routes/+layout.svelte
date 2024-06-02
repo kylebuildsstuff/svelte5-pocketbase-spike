@@ -7,7 +7,7 @@
 
 <ModeWatcher />
 
-<ModeToggle />
+<!-- <ModeToggle /> -->
 
 <slot></slot>
 
