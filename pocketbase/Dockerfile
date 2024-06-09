@@ -39,6 +39,7 @@
 # ENTRYPOINT ["/pb/pocketbase", "serve", "--http=0.0.0.0:8080", "--dir=/pb/pb_data", "--publicDir=/pb/pb_public", "--migrationsDir=/pb/pb_migrations"]
 
 # But this stuff does apply migrations
+# https://pocketbase.io/docs/going-to-production/
 FROM alpine:latest
 
 ARG PB_VERSION=0.22.13
